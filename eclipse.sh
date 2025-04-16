@@ -89,6 +89,7 @@ if [[ "$confirm" =~ ^[Yy]$ ]]; then
 
   # Set RPC endpoint
   solana config set --url https://eclipse.helius-rpc.com/
+fi
 
  # Display thank you message
 echo "========================================"
